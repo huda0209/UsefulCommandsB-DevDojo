@@ -1,0 +1,21 @@
+name: UsefulCommandsB-DevDojo
+version: '${version}'
+main: com.github.huda0209.usefulcommandsbdevdojo.UsefulCommandsBDevDojo
+prefix: UsefulCommandsB DevDojo
+authors: [ huda0209 ]
+commands:
+  heal:
+    description: heal
+  broadcast:
+    description: broadcast
+  loc:
+    description: loc
+permissions:
+  UsefulCommandsBDevDojo.command.heal:
+    default: op
+  UsefulCommandsBDevDojo.command.broadcast:
+    default: op
+  UsefulCommandsBDevDojo.command.loc.own:
+    default: true
+  UsefulCommandsBDevDojo.command.loc.other:
+    default: op
